@@ -3,6 +3,11 @@ html, body {
     padding: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .one {
     background-color: #1F2937;
     display: flex;
@@ -18,6 +23,7 @@ html, body {
 h2 {
     font-size: 24px;
     color: #F9FAF8;
+    justify-content: start;
 }
 
 a {
@@ -26,7 +32,50 @@ a {
     font-size: 18px;
 }
 
+.img-one {
+    width: 600px;
+    height: 150px;
+}
+
+.two {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    padding-left: 172px;
+    padding-right: 172px;
+    align-items: center;
+    gap: 50px;
+}
+
+.header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 5px 0;
+}
+
+.hero-subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.button-one {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 6px;
+    max-width: 70px;
+    border-color: #3882F6;
+    margin-bottom: 5px;
+}
+
+.two-one {
+    display: flex;
+    flex-direction: column;
+}
+
 img {
     width: auto;
     height: 100px;
 }
+
