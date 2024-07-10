@@ -157,3 +157,13 @@ img {
     padding: 3px 20px;
 }
 
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #1F2937;
+    padding: 40px;
+    margin: 0px;
+}
+
